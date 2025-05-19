@@ -3,7 +3,7 @@ import { generateClient } from "aws-amplify/data";
 import './App.css';
 import React from 'react';
 import {jsx as _jsx} from "react/jsx-runtime"
-import ContactEntry from "./src/ContactEntryForm.jsx"; 
+import ContactEntry from "./ContactEntryForm"; 
 import Navigation from "./Navigation";
 import AccountEntry from "./AccountEntryForm";
 import ContactValidation from "./ContactValidationForm";

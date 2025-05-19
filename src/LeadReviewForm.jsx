@@ -1,3 +1,8 @@
+import React from "react";
+import {jsx as _jsx} from "react/jsx-runtime"
+import { Amplify } from "aws-amplify";
+import outputs from "../amplify_outputs.json";
+import ReactDOM from "react-dom/client";
 function LeadReview(props) {
     const contact = props.contact;
    
