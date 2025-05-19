@@ -1,14 +1,15 @@
 import type { Schema } from "../amplify/data/resource";
 import { generateClient } from "aws-amplify/data";
 import './App.css';
-import ContactEntry from './ContactEntryForm'; 
-import Navigation from './Navigation';
-import AccountEntry from './AccountEntryForm';
 import React from 'react';
-import ContactValidation from './ContactValidationForm';
-import AccountValidation from './AccountValidationForm';
-import LeadEntry from './LeadEntryForm';
-import LeadReview from './LeadReviewForm';
+import {jsx as _jsx} from "react/jsx-runtime"
+import ContactEntry from "./src/ContactEntryForm.jsx"; 
+import Navigation from "./Navigation";
+import AccountEntry from "./AccountEntryForm";
+import ContactValidation from "./ContactValidationForm";
+import AccountValidation from "./AccountValidationForm";
+import LeadEntry from "./LeadEntryForm";
+import LeadReview from "./LeadReviewForm";
 
 const client = generateClient<Schema>();
 
